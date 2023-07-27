@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url('/assets/img/BG.png');
+    position: relative;
+    /* background-color: red; */
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.taskBox{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    position:absolute;
+    left: 24.7rem;
+    top: 9.5rem;
+    color: #fff;
+    font-size: 1.4rem;
+    padding-bottom: margin-bottomrem;
+    margin-left: 6rem;
+
+}
+.item{
+    background-color: transparent;
+    /* width: 200px; */
+
+}
+
+.timerBox{
+    width: 220px;
+    height: 98px;
+    background-color: transparent;
+    position: fixed;
+    left: 51.3rem;
+    top: 7.5rem;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.timerBox h1{
+    color: red;
+}
+.timerBox p{
+    margin-top: .5rem;
+    font-size: 1.8rem;
+}
+
+.personOneTaskBox{
+    position: fixed;
+    width: 160px;
+    height: 120px;
+    background-color: transparent;
+    bottom: 152px;
+    left:64px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: .6rem;
+    /* color: #fff; */
+
+}
+
+.personTwoTaskBox{
+    background-color: transparent;
+    width: 160px;
+    height: 120px;
+    position: fixed;
+    bottom: 152px;
+    left:504px;
+    text-align: center;
+    border-radius:5px;
+}
+
+
+.personThreeTaskBox{
+    background-color: transparent;
+    width: 160px;
+    height: 120px;
+    position: fixed;
+    bottom: 152px;
+    right:264px;
+    text-align: center;
+    border-radius:5px;
+}
+
+
+
+
+

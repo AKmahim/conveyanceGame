@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-image: url('/assets/img/BG.png');
+    background-image: url('./assets/img/BG.png');
     position: relative;
     /* background-color: red; */
     width: 100vw;

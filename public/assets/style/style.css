@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg_img img{
+    width: 100vw ;
+    height: 100vh;
+    position: fixed;
+    z-index: -1000;
+}
+
+.tv{
+    position: fixed;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    z-index: 1;
+
+}
+.tv img{
+    width: 200px;
+    height: 150px;
+    
+    
+}
+
+.timer{
+    position: fixed;
+    z-index: 1;
+    right: 1rem;
+    top: 3rem;
+}
+.timer img{
+    width: 100px;
+    height: 70px;
+}
+.tb-1{
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.tb-1 img{
+    width: 200px;
+}
+
+.tb-2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.tb-2 img{
+    width: 200px;
+}
+
+.work-list{
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    z-index: 2;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.person_one_work_list{
+    position: fixed;
+    bottom: 150px;
+    left: 50px;
+}
+#drop_zone1 {
+    
+    background-color: transparent;
+    border: #999 1px solid ;
+    width: 80px;
+    height: 50px;
+    /* padding: 8px; */
+    font-size: 10px;
+    /* z-index: 15; */
+}
+
+#drop_zone2 {
+    
+    background-color: red;
+    border: #722b2b 1px solid ;
+    width: 80px;
+    height: 50px;
+    padding: 8px;
+    font-size: 10px;
+    z-index: 15;
+}
+
+.person_two_work_list{
+    position: fixed; 
+    bottom: 150px; 
+    right: 50px;
+    background-color: red;
+
+}
+
+.objects {
+    display: inline-block;
+    background-color: #FFF3CC;
+    border: #DFBC6A 1px solid;
+    width: 80px;
+    height: 20px;
+    /* margin: 3px; */
+    padding: 3px;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #999;
+    cursor: move;
+    color: black;
+}
+
+.person_two_work_list{
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    display: none;
+}
+
+
+/* ============= timer === */
+.timerBox{
+    position: fixed;
+    right: 30px;
+    top: 60px;
+    z-index: 15;
+}
+.timerBox h1{
+    font-size: 12px;
+    color: red;
+}
+.timerBox p{
+
+    text-align: center;
+    color: white;
+}

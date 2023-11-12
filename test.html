@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drag and Drop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="style.css" /> -->
+    <style>
+        html, body {margin: 0; height: 100%; overflow: hidden}
+
+        #drop_zone {
+            background-color: #eee;
+            border: #999 1px solid ;
+            width: 280px;
+            height: 200px;
+            padding: 8px;
+            font-size: 19px;
+        }
+        
+        .objects {
+            display: inline-block;
+            background-color: #FFF3CC;
+            border: #DFBC6A 1px solid;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            padding: 8px;
+            font-size: 18px;
+            text-align: center;
+            box-shadow: 2px 2px 2px #999;
+            cursor: move;
+        }
+    </style>
+    <script src="test.js"></script>
+</head>
+
+<body>
+    <h2 id="app_status">Drag status: </h2>
+    <h1>Drop Zone</h1>
+    <div id="drop_zone" ondragover="return false"></div>
+    <div id="object1" class="objects" draggable="true">Object 1</div>
+    <div id="object2" class="objects" draggable="true">Object 2</div>
+    <div id="object3" class="objects" draggable="true">Object 3</div>
+
+    <div id="drop_zone" ondragover="return false"></div>
+</body>
+
+</html>
